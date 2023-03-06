@@ -157,7 +157,7 @@ const experiences = [
         company_name: "",
         icon: se,
         iconBg: "#383E56",
-        date: "Jan 2023 - Present",
+        date: "2018 - Present",
         points: [
             "Dropshipping - managing the online store, marketing and sales, order processing and fulfillment, customer service, and financial management.",
             "Providing guidance on the game design and marketing aspects of a Web3 project",
