@@ -7,22 +7,20 @@ import {
     html,
     css,
     reactjs,
+    next,
     redux,
     tailwind,
-    nodejs,
-    mongodb,
     git,
     figma,
-    docker,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     creator,
     bct,
     nerdwelten,
     codeacademy,
     se,
+    resume_v1,
+    netflix_clone,
+    news_site,
 } from "../assets";
 
 export const navLinks = [
@@ -103,6 +101,12 @@ const technologies = [
         name: "figma",
         icon: figma,
     },
+    {
+        name: "nextjs",
+        icon: next,
+    },
+
+
 
 ];
 
@@ -186,67 +190,68 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Resume V1",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Dummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy text.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "Material UI",
                 color: "green-text-gradient",
             },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
+
         ],
-        image: carrent,
+        image: resume_v1,
         source_code_link: "https://github.com/",
+        live_page_link: "https://povilasge.github.io./",
     },
     {
-        name: "Job IT",
+        name: "Netflix clone",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            " Dummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy text.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "firebase",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "redux",
                 color: "pink-text-gradient",
             },
+
         ],
-        image: jobit,
+        image: netflix_clone,
         source_code_link: "https://github.com/",
+        live_page_link: "https://livepage.com/",
     },
     {
-        name: "Trip Guide",
+        name: "News site",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Dummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy text.",
         tags: [
             {
                 name: "nextjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "typescript",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "graphQl",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: news_site,
         source_code_link: "https://github.com/",
+        live_page_link: "https://livepage.com/",
     },
 ];
 
