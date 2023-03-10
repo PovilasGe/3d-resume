@@ -33,6 +33,10 @@ export const navLinks = [
         title: "Work Experience",
     },
     {
+        id: "feedback",
+        title: "Testimonials",
+    },
+    {
         id: "projects",
         title: "Projects",
     },
@@ -168,27 +172,11 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-        testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "Povilas Gedminas has consistently impressed us with his ability to learn quickly and adapt to new technologies. He was always eager to take on new challenges and consistently delivered high-quality work.",
+        name: "Lukas Jackson",
+        designation: "CEO",
+        company: "nerdwelten GbR",
+        icon: nerdwelten,
     },
 ];
 
@@ -196,26 +184,26 @@ const projects = [
     {
         name: "Resume V1",
         description:
-            "Dummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy text.",
+            "Resume website showcasing education, work experience and skills, made using reactjs and material UI.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "Material UI",
+                name: "material UI",
                 color: "green-text-gradient",
             },
 
         ],
         image: resume_v1,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/PovilasGe/resume",
         live_page_link: "https://povilasge.github.io./",
     },
     {
         name: "Netflix clone",
         description:
-            " Dummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy text.",
+            "The website is a replica of Netflix, data is retrieved from the TMDB database. The backend of the site is created using Google Firebase",
         tags: [
             {
                 name: "react",
@@ -232,13 +220,13 @@ const projects = [
 
         ],
         image: netflix_clone,
-        source_code_link: "https://github.com/",
-        live_page_link: "https://livepage.com/",
+        source_code_link: "https://github.com/PovilasGe/netflix-clone",
+        live_page_link: "",
     },
     {
         name: "News site",
         description:
-            "Dummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy textDummy text.",
+            "Real time news website built using nextjs 13 typescript and tailwind.",
         tags: [
             {
                 name: "nextjs",
@@ -254,8 +242,8 @@ const projects = [
             },
         ],
         image: news_site,
-        source_code_link: "https://github.com/",
-        live_page_link: "https://livepage.com/",
+        source_code_link: "https://github.com/PovilasGe/news-app",
+        live_page_link: "https://news-app-povilasge.vercel.app/",
     },
 ];
 
