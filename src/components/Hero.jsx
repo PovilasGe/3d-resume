@@ -31,7 +31,7 @@ const Hero = () => {
           )}
         </div>
       </div>
-
+      {/* 
       {!isMobile && <ComputersCanvas />}
 
       {isMobile && (
@@ -40,7 +40,7 @@ const Hero = () => {
           alt='Computer'
           className='absolute mt-20 pt-20 left-1/2 transform -translate-x-1/2 top-1/2 transform -translate-y-1/2 w-80 flex justify-center items-center'
         />
-      )}
+      )} */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
