@@ -31,10 +31,10 @@ const Hero = () => {
           )}
         </div>
       </div>
-      {/* 
+
       {!isMobile && <ComputersCanvas />}
 
-      {isMobile && (
+      {/* {isMobile && (
         <img
           src={computer}
           alt='Computer'
