@@ -221,7 +221,6 @@ const projects = [
         ],
         image: netflix_clone,
         source_code_link: "https://github.com/PovilasGe/netflix-clone",
-        live_page_link: "",
     },
     {
         name: "News site",

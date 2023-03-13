@@ -1,9 +1,11 @@
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { computer } from "../assets";
 
 const Hero = () => {
+  const isMobile = window.matchMedia("(max-width: 500px)").matches;
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -22,10 +24,24 @@ const Hero = () => {
             I develop visually appealing <br className='sm:block hidden' />
             interfaces and web applications
           </p>
+          {isMobile && (
+            <p className={`${styles.heroSubText} mt-10 text-white-250 italic`}>
+              For best experience please view on desktop.
+            </p>
+          )}
         </div>
       </div>
 
-      <ComputersCanvas />
+      {!isMobile && <ComputersCanvas />}
+
+      {isMobile && (
+        <img
+          src={computer}
+          alt='Computer'
+          className='absolute mt-20 pt-20 left-1/2 transform -translate-x-1/2 top-1/2 transform -translate-y-1/2 w-80 flex justify-center items-center'
+        />
+      )}
+
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
@@ -43,9 +59,8 @@ const Hero = () => {
           </div>
         </a>
       </div>
-
     </section>
   );
 };
 
-export default Hero
+export default Hero;

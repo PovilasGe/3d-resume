@@ -6,8 +6,10 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { planet } from "../assets";
 
 const Contact = () => {
+  const isMobile = window.matchMedia("(max-width: 500px)").matches;
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -127,7 +129,15 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
-        <EarthCanvas />
+        {!isMobile && <EarthCanvas />}
+
+        {isMobile && (
+          <img
+            src={planet}
+            alt='Planet'
+            className='absolute xs:bottom-10 bottom-32 left-1/2 transform -translate-x-1/2 top-1/2 transform -translate-y-1/2 w-100 flex justify-center items-center'
+          />
+        )}
       </motion.div>
     </div>
   );
