@@ -201,29 +201,7 @@ const projects = [
         source_code_link: "https://github.com/PovilasGe/resume",
         live_page_link: "https://povilasge.github.io./",
     },
-    {
-        name: "Netflix clone",
-        description:
-            "The website is a replica of Netflix, data is retrieved from the TMDB database. The backend of the site is created using Google Firebase",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "firebase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "redux",
-                color: "pink-text-gradient",
-            },
 
-        ],
-        image: netflix_clone,
-        source_code_link: "https://github.com/PovilasGe/netflix-clone",
-        live_page_link: "https://notnetfl.povilasgedminas.com/",
-    },
     {
         name: "News site",
         description:
@@ -249,7 +227,7 @@ const projects = [
     {
         name: "Metaverse",
         description:
-            "Figma design project made using nextjs 13 and tailwind css",
+            "Figma design project built using nextjs 13 and tailwind.",
         tags: [
             {
                 name: "nextjs",
@@ -262,8 +240,31 @@ const projects = [
 
         ],
         image: metaverse,
-        source_code_link: "https://metaverse.povilasgedminas.com/",
-        live_page_link: "https://github.com/PovilasGe/metaverse",
+        source_code_link: "https://github.com/PovilasGe/metaverse",
+        live_page_link: "https://metaverse.povilasgedminas.com/",
+    },
+    {
+        name: "Netflix clone",
+        description:
+            "The website is a replica of Netflix, data is retrieved from the TMDB database. The backend of the site is created using Google Firebase",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "firebase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "redux",
+                color: "pink-text-gradient",
+            },
+
+        ],
+        image: netflix_clone,
+        source_code_link: "https://github.com/PovilasGe/netflix-clone",
+        live_page_link: "https://notnetfl.povilasgedminas.com/",
     },
 ];
 
