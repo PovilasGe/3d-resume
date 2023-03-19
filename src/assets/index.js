@@ -29,6 +29,7 @@ import nerdwelten from "./company/nerdwelten.png";
 import resume_v1 from "./resume_v1.png"
 import netflix_clone from "./netflix_clone.png"
 import news_site from "./news_site.png"
+import metaverse from "./metaverse.png"
 import computer from "./computer.png"
 import planet from "./planet.png"
 
@@ -63,4 +64,5 @@ export {
   resume_v1,
   netflix_clone,
   news_site,
+  metaverse,
 };

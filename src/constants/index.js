@@ -21,6 +21,7 @@ import {
     resume_v1,
     netflix_clone,
     news_site,
+    metaverse,
 } from "../assets";
 
 export const navLinks = [
@@ -244,6 +245,25 @@ const projects = [
         image: news_site,
         source_code_link: "https://github.com/PovilasGe/news-app",
         live_page_link: "https://news-app-povilasge.vercel.app/",
+    },
+    {
+        name: "Metaverse",
+        description:
+            "Figma design project made using nextjs 13 and tailwind css",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "green-text-gradient",
+            },
+
+        ],
+        image: metaverse,
+        source_code_link: "https://metaverse.povilasgedminas.com/",
+        live_page_link: "https://github.com/PovilasGe/metaverse",
     },
 ];
 
