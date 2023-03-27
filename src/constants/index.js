@@ -19,6 +19,7 @@ import {
     codeacademy,
     se,
     resume_v1,
+    budget,
     netflix_clone,
     news_site,
     metaverse,
@@ -200,6 +201,25 @@ const projects = [
         image: resume_v1,
         source_code_link: "https://github.com/PovilasGe/resume",
         live_page_link: "https://povilasge.github.io./",
+    },
+    {
+        name: "Budget tracker",
+        description:
+            "Budget tracker website built using nextjs 13 and google firebase for backend",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "google firebase",
+                color: "green-text-gradient",
+            },
+
+        ],
+        image: budget,
+        source_code_link: "https://github.com/PovilasGe/budget",
+        live_page_link: "https://budget-povilasge.vercel.app/",
     },
 
     {

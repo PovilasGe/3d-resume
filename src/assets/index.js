@@ -32,6 +32,7 @@ import news_site from "./news_site.png"
 import metaverse from "./metaverse.png"
 import computer from "./computer.png"
 import planet from "./planet.png"
+import budget from "./budget.png"
 
 
 export {
@@ -65,4 +66,5 @@ export {
   netflix_clone,
   news_site,
   metaverse,
+  budget,
 };
